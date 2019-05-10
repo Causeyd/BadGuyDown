@@ -26,6 +26,28 @@ main {
   border: 1px solid #1f1765;
 }
 
+ul {
+  list-style-type: disc;
+}
+
+.Class:nth-child(odd) {
+  background: #afb9c5;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Class:nth-child(even) {
+  background: #111f28;
+  color: #e3cdb3;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 footer {
   text-align: center;
   margin-top: 20px;
@@ -73,7 +95,7 @@ footer {
 
 @media screen and (min-width: 700px) {
   html, body {
-    background-color: purple;
+    background-color: #060607;
   }
 
   nav {
@@ -94,7 +116,7 @@ footer {
 
 @media screen and (min-width: 1000px) {
   html, body {
-    background-color: lightgreen;
+    background-color: #060607;
   }
 
   nav {
