@@ -20,7 +20,7 @@ nav {
 }
 
 main {
-  margin-top: 70px;
+  margin-top: 150px;
   padding: 10px;
   background-color: white;
   border: 1px solid #1f1765;
@@ -28,6 +28,10 @@ main {
 
 ul {
   list-style-type: disc;
+}
+
+.tab {
+  overflow: visible;
 }
 
 .Class:nth-child(odd) {
@@ -84,8 +88,8 @@ footer {
   }
 
   .logo {
-      height: 50px;
-      width: 130px;
+      height: 60px;
+      width: auto;
   }
 
   .dropdown {
@@ -104,8 +108,8 @@ footer {
 
 
   .logo {
-      height: 100px;
-      width: 260px;
+      height: 80px;
+      width: auto;
   }
 
   .dropdown {
@@ -124,8 +128,8 @@ footer {
   }
 
   .logo {
-      height: 200px;
-      width: 520px;
+      height: 120px;
+      width: auto;
   }
 
   .dropdown {
