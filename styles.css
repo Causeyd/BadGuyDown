@@ -1,14 +1,10 @@
 html, body {
-  background-color: #f3fb99;
+  background-color: #060607;
 }
 
 nav {
   border: 1px solid black;
   background-color: #5b676d;
-}
-
-.logo {
-  align: center;
 }
 
 .nav-link {
@@ -17,6 +13,10 @@ nav {
 
 .nav-link:hover {
   color: lightblue;
+}
+
+.navbar-toggler-icon {
+  color: red;
 }
 
 main {
@@ -60,97 +60,24 @@ footer {
   border: 1px solid #1f1765;
 }
 
-@media screen and (max-width: 499px) {
-  html, body {
-    background-color: black;
-  }
-
-  nav {
-    font-size: .5em;
-  }
-
-  .nav-item {
-    display: none;
-  }
-
+@media screen and (max-width: 699px) {
   .logo_small {
     display: inline;
-    height: 80px;
+    height: 60px;
   }
 
   .logo {
-      display: none;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  html, body {
-    background-color: lightblue;
-  }
-
-  nav {
-    font-size: .8em;
-  }
-
-  .logo {
-      height: 60px;
-      width: auto;
-  }
-
-  .logo_small {
-    display: none;
-  }
-
-  .dropdown {
     display: none;
   }
 }
 
 @media screen and (min-width: 700px) {
-  html, body {
-    background-color: #060607;
-  }
-
-  nav {
-    font-size: 1.2em;
-  }
-
-
-  .logo {
-      height: 80px;
-      width: auto;
-  }
-
   .logo_small {
     display: none;
   }
 
-  .dropdown {
-    display: none;
-  }
-
-}
-
-@media screen and (min-width: 1000px) {
-  html, body {
-    background-color: #060607;
-  }
-
-  nav {
-    font-size: 1.8em;
-  }
-
   .logo {
-      height: 120px;
-      width: auto;
+    height: 80px;
+    width: auto;
   }
-
-  .logo_small {
-    display: none;
-  }
-
-  .dropdown {
-    display: none;
-  }
-
 }
