@@ -20,7 +20,7 @@ nav {
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 120px;
   padding: 10px;
   background-color: white;
   border: 1px solid #1f1765;
@@ -73,6 +73,11 @@ footer {
     display: none;
   }
 
+  .logo_small {
+    display: inline;
+    height: 80px;
+  }
+
   .logo {
       display: none;
   }
@@ -90,6 +95,10 @@ footer {
   .logo {
       height: 60px;
       width: auto;
+  }
+
+  .logo_small {
+    display: none;
   }
 
   .dropdown {
@@ -112,6 +121,10 @@ footer {
       width: auto;
   }
 
+  .logo_small {
+    display: none;
+  }
+
   .dropdown {
     display: none;
   }
@@ -130,6 +143,10 @@ footer {
   .logo {
       height: 120px;
       width: auto;
+  }
+
+  .logo_small {
+    display: none;
   }
 
   .dropdown {
