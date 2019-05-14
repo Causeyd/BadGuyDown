@@ -7,16 +7,20 @@ nav {
   background-color: #5b676d;
 }
 
+main, footer {
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 40rem;
+}
+
 .nav-link {
   color: white;
 }
 
 .nav-link:hover {
   color: lightblue;
-}
-
-.navbar-toggler-icon {
-  color: red;
 }
 
 main {
@@ -34,7 +38,7 @@ ul {
   overflow: visible;
 }
 
-.Class:nth-child(odd) {
+.section:nth-child(odd) {
   background: #afb9c5;
   color: black;
   border-radius: 10px;
@@ -43,7 +47,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.Class:nth-child(even) {
+.section:nth-child(even) {
   background: #111f28;
   color: #e3cdb3;
   border-radius: 10px;
@@ -60,7 +64,7 @@ footer {
   border: 1px solid #1f1765;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 779px) {
   .logo_small {
     display: inline;
     height: 60px;
@@ -69,15 +73,18 @@ footer {
   .logo {
     display: none;
   }
+
+  .card-img-top {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 780px) {
   .logo_small {
     display: none;
   }
 
   .logo {
     height: 80px;
-    width: auto;
   }
 }
