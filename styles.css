@@ -30,12 +30,40 @@ main {
   border: 1px solid #1f1765;
 }
 
+iframe {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
 ul {
   list-style-type: disc;
 }
 
 .tab {
   overflow: visible;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background: #afb9c5;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background: #111f28;
+  color: #e3cdb3;
 }
 
 .section:nth-child(odd) {
@@ -70,6 +98,10 @@ footer {
     height: 60px;
   }
 
+  .Calendar {
+    display: none;
+  }
+
   .logo {
     display: none;
   }
@@ -81,6 +113,10 @@ footer {
 
 @media screen and (min-width: 780px) {
   .logo_small {
+    display: none;
+  }
+
+  .Agenda {
     display: none;
   }
 
